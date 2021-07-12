@@ -1,0 +1,33 @@
+body {
+  font-family: "CerebriSans-Light";
+  font-size: 0.9rem;
+  background-color: rgb(243, 243, 243);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color : $op-primary;
+  margin-bottom: 0;
+}
+
+hr {
+  margin: 0.5rem 0;
+}
+
+a{
+  color: $op-primary;
+}
+a:link{
+  text-decoration: none;
+}
+main{
+  margin-bottom: 3rem;
+}
+/* ------- CKEDITOR --------*/
+.ck-editor__editable {
+  min-height: 250px !important;
+}
